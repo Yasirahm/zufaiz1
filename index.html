@@ -1,13 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>The Zufaiz Saneen Store</title>
+
+    <!-- Favicon (Update path if necessary) -->
+    <link rel="icon" type="image/svg+xml" href="/Logo.jpg" />
+
+
+
+    <!-- Preload main script for better performance -->
+    <link rel="preload" as="script" href="./src/main.jsx" />
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Corrected script path -->
+    <script type="module" src="./src/main.jsx" defer></script>
   </body>
 </html>
