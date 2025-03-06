@@ -96,9 +96,7 @@ const Header = () => {
             </Link>
           </motion.li>
           <motion.li whileHover={{ scale: 1.1 }}>
-            <Link to="#top" className="hover:text-yellow-400 transition duration-300">
-              Products
-            </Link>
+          <Link to="/orders" className="hover:text-yellow-400">Your Orders</Link>
           </motion.li>
           <motion.li whileHover={{ scale: 1.1 }}>
             <Link to="/order" className="hover:text-yellow-400 transition duration-300">

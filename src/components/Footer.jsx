@@ -71,12 +71,7 @@ const Footer = () => {
             </div>
 
             {/* Scroll to Top Button */}
-            <button
-              onClick={scrollToTop}
-              className="mt-8 text-white rounded-full p-2 bg-purple-600 hover:bg-purple-700 transition duration-300 fixed bottom-5 right-5"
-            >
-              <FaArrowUp size={24} />
-            </button>
+            
           </motion.div>
         )}
       </InView>

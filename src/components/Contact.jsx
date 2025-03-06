@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import { motion } from "framer-motion";
 import { FaInstagram } from "react-icons/fa";
 
@@ -49,9 +50,9 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen mt-20 flex flex-col items-center justify-center px-6">
+    <div className="min-h-screen  flex flex-col items-center justify-center px-6">
       <motion.h2
-        className="text-3xl bg-gradient-to-r from-purple-800 to-gray-800 font-bold text-black text-center mb-6"
+        className="text-3xl mt-20 bg-gradient-to-r from-purple-800 to-gray-800 font-bold text-black text-center mb-6"
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -20 }}
         transition={{ duration: 0.5 }}

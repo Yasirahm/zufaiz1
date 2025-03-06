@@ -142,7 +142,7 @@ const AdminDashboard = () => {
             <p className="font-semibold text-lg">
               <span className="text-purple-300">👤 {bill.customerName}</span>
             </p>
-            <p className="text-sm text-gray-100">🏗 <span className="font-medium">Product Type:</span> {bill.hamaamType}</p>
+            <p className="text-sm text-gray-100">🏗 <span className="font-medium">Product Type:</span> {bill.productType}</p>
             <p className="text-sm text-gray-200">📞 <span className="font-medium">Contact:</span> {bill.contact}</p>
             <p className="text-sm text-gray-100">💰 <span className="font-medium">Total:</span> ₹{bill.totalAmount}</p>
             <p className={`text-sm font-semibold ${bill.pendingAmount > 0 ? "text-red-500" : "text-green-500"}`}>

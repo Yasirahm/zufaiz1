@@ -1,7 +1,7 @@
-  import { initializeApp } from "firebase/app";
-  import { getAuth } from "firebase/auth";
-  import { getFirestore } from "firebase/firestore";
-  import { getStorage } from "firebase/storage"; // Add storage for file uploads
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
+import { getStorage } from "firebase/storage";
 
   const firebaseConfig = {
     apiKey: "AIzaSyDnZcIg2NKwq8J9lb92D-XR-e6dSIykE60",
@@ -14,6 +14,6 @@
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
-  export const auth = getAuth(app); // Firebase Authentication
-  export const db = getFirestore(app); // Firestore Database
-  export const storage = getStorage(app); // Firebase Storage for file uploads
+export const auth = getAuth(app);
+export const db = getFirestore(app);
+export const storage = getStorage(app);
