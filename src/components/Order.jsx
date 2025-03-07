@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { db } from "../firebase"; // Import Firestore database
-import { collection, addDoc, serverTimestamp } from "firebase/firestore";
+import { collection, addDoc, serverTimestamp } from "firebase/firestore"; // ✅ Correct import
 
 const Order = () => {
   const [formData, setFormData] = useState({

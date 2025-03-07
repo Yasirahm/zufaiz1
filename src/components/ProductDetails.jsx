@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { db } from "../firebase";
-import { doc, getDoc } from "firebase/firestore";
+import { db } from "../firebase"; // Import Firestore database
+import { doc, getDoc } from "firebase/firestore"; // Import Firestore functions
+
 
 const ProductDetails = () => {
   const { id } = useParams();

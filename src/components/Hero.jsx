@@ -62,7 +62,7 @@ const Products = () => {
                   <div className="mt-3">
                   
 
-<Link to="/Order">
+<Link to="/order">
   <button className="bg-red-600 text-white py-1 px-4 w-full rounded-lg hover:bg-red-700">
     Buy Now
   </button>
